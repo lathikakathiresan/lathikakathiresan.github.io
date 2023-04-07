@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8" name="viewport" content="width=device-width">
+        <title>Lathika Kathiresan</title>
+        <link rel="icon" href="images/favicon-16x16.png">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+    <body id="default-page">
+        <div id="grid-container">
+
+            <nav id="default-nav">
+                <div id="professional-links">
+                    <div class="nav-item"><a href="index.html">Lathika Kathiresan</a></div>
+                    <div class="nav-item professional-links-mobile-disappear" id="nav-current-page"><a href="portfolio.html">Portfolio</a></div>
+                    <div class="nav-item professional-links-mobile-disappear"><a href="resume.html">Resume</a></div>
+                    <div class="nav-item professional-links-mobile-disappear"><a href="contact.html">Contact</a></div>
+                </div>
+                <div id="personal-links">
+                    <div class="nav-item desktop-personal-link" ><a href="guides.html">Guides</a></div>
+                    <div class="nav-item desktop-personal-link"><a href="learn.html">Learn</a></div>
+                    <div class="nav-item desktop-personal-link"><a href="media.html">Media</a></div>
+                    <div class="nav-item desktop-personal-link"><a href="resources.html">Resources</a></div>
+                    <div class="nav-item" id="tablet-personal-links">
+                        <div class="blog-bar">Blog <i class="fa fa-chevron-down"></i>
+                        </div>
+                        <div id="menu-items-tablet">
+                            <div class="tablet-menu-links"><a href="guides.html">Guides</a></div>
+                            <div class="tablet-menu-links"><a href="learn.html">Learn</a></div>
+                            <div class="tablet-menu-links"><a href="media.html">Media</a></div>
+                            <div class="tablet-menu-links"><a href="resources.html">Resources</a></div>
+                        </div>
+                    </div>
+                    <div class="nav-item" id="mobile-hamburger-menu">
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                        <div id="menu-items">
+                            <div class="mobile-menu-links"><a href="portfolio.html">Portfolio</a></div>
+                            <div class="mobile-menu-links"><a href="resume.html">Resume</a></div>
+                            <div class="mobile-menu-links"><a href="contact.html">Contact</a></div>
+                            <div class="mobile-menu-links"><a href="guides.html">Guides</a></div>
+                            <div class="mobile-menu-links"><a href="learn.html">Learn</a></div>
+                            <div class="mobile-menu-links"><a href="media.html">Media</a></div>
+                            <div class="mobile-menu-links"><a href="resources.html">Resources</a></div>
+                        </div>
+                    </div>
+                </div>   
+            </nav>
+
+            <main id="main">
+
+                <div id="color-buttons">
+                    <input type="button" value="palette1" id="palette1">
+                    <input type="button" value="palette2" id="palette2">
+                    <input type="button" value="palette3" id="palette3">
+                </div>
+    
+                <h1>Portfolio</h1>
+
+                <p id="regular-para">Since I'm just starting out, I don't really have any works to showcase yet, but soon I will replace the pictures of these dogs with my pixel-perfect projects!</p>
+
+                <p id="sorting-para">
+                    <label for="sorting">Sorting</label>
+                    <select name="sorting" id="sorting">
+                        <option value="oldest">Oldest First</option>
+                        <option value="newest">Newest First</option>
+                    </select>
+                </p>
+
+                
+                <div id="portfolio-flexbox">
+
+                    <div class="portfolio-item">
+                        <img src="images/dog1.jpg" alt="a picture of a dog" width="500">
+                        <div class="caption">
+                            <p>Dog 1</p>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item">
+                        <img src="images/dog2.jpg" alt="a picture of a dog" width="500">
+                        <div class="caption">
+                            <p>Dog 2</p>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item">
+                        <img src="images/dog3.jpg" alt="a picture of a dog" width="500">
+                        <div class="caption">
+                            <p>Dog 3</p>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item">
+                        <img src="images/dog4.jpg" alt="a picture of a dog" width="500">
+                        <div class="caption">
+                            <p>Dog 4</p>
+                        </div>
+                    </div>              
+                </div>
+            </main>
+
+            <footer id="footer">
+                <p>&copy; Copyright 2023</p>
+            </footer>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
+
